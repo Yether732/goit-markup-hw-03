@@ -185,10 +185,10 @@ h3 {
   background-color: var(--WHİTE);
 
 }
-.personal-info img {
-  margin-bottom: 32px;
+.personal-name {
+  padding: 32px 0;
 }
-.personal-name h3 {
+.personal-name-info {
   color: var(--NAVY-BLUE);
   margin-bottom: 8px;
   font-weight: 500;
