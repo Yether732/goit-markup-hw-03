@@ -126,7 +126,7 @@ img {
 .hero-text {
   padding: 120px 0;
 }
-.textarea {
+.text-area {
   display: flex;
   gap:24px; 
 }
@@ -138,7 +138,7 @@ h3{
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-.textarea li p{
+.text-area li p{
   color: var(--SLATE);
   font-weight: 400;
   font-size: 16px;
