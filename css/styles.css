@@ -1,0 +1,150 @@
+:root {
+  --NAVY-BLUE: #2e2f42;
+  --IRIS: #4d5ae5;
+  --SLATE: #434455;
+  --OCEAN: #404bbf;
+  --WHİTE: #ffffff;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  height: 72px;
+  border-bottom: 1px solid #e7e9fc
+}
+.header-container {
+  display:flex;
+  align-items: center;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.listmenu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.logo-header {
+  color: var(--IRIS);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-right: 76px;
+}
+.nav-header .logo-header .studio {
+  color: var(--NAVY-BLUE);
+}
+.listmenu li a {
+  color: var(--NAVY-BLUE);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+}
+.address ul {
+  display: flex;
+  gap:40px;
+}
+.address {
+  margin-left:auto;
+  margin-top: 24px;
+}
+.address ul li a {
+  color: var(--SLATE);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.listmenu li a:hover{
+  color: var(--OCEAN)
+}
+.address li a:hover{
+  color: var(--OCEAN)
+}
+.hero-bigbox{
+  background-color: var(--NAVY-BLUE);
+  padding: 188px 0;
+  text-align: center;
+}
+.container-hero-1 {
+  text-align: center;
+  justify-content: center;
+}
+.bigitem {
+  color: var(--WHİTE);
+  max-width: 496px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  margin-left: 310px;
+  margin-bottom: 48px;
+}
+.button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--IRIS);
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--WHİTE);
+  margin-left: 477px;
+}
+.button:hover{
+  background-color: var(--OCEAN);
+}
+.hero-text {
+  padding: 120px 0;
+}
+.textarea {
+  display: flex;
+  gap:24px; 
+}
+h3{
+  color: var(--NAVY-BLUE);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.textarea li p{
+  color: var(--SLATE);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.text-textbox {
+  width: calc((100%-72px)/4);
+}
