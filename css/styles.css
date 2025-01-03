@@ -152,5 +152,8 @@ h3 {
   width: calc((100%-72px) / 4);
 }
 .visually-hidden {
-  color: var(--WHİTE)
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(100%);
 }
