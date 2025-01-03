@@ -4,6 +4,7 @@
   --SLATE: #434455;
   --OCEAN: #404bbf;
   --WHİTE: #ffffff;
+  --CLOUD: #F4F4FD;
 }
 * {
   margin: 0;
@@ -152,8 +153,53 @@ h3 {
   width: calc((100%-72px) / 4);
 }
 .visually-hidden {
+  position: absolute;
   width: 1px;
   height: 1px;
   overflow: hidden;
   clip-path: inset(100%);
+}
+.hero-ourteam{
+  padding: 120px 0;
+  background-color: var(--CLOUD)
+}
+.container-hero-ourteam {
+  text-align: center;
+}
+.our-team {
+  margin-bottom: 72px;
+  color: var(--NAVY-BLUE);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.personal-team {
+  display: flex;
+  gap: 24px;
+}
+.personal-info {
+  text-align: center;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--WHİTE);
+
+}
+.personal-info img {
+  margin-bottom: 32px;
+}
+.personal-name h3 {
+  color: var(--NAVY-BLUE);
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.personal-info-text{
+  color: var(--SLATE);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
