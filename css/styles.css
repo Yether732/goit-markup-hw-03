@@ -5,7 +5,7 @@
   --OCEAN: #404bbf;
   --WHİTE: #ffffff;
 }
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -28,10 +28,10 @@ img {
 }
 .header {
   height: 72px;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
-  display:flex;
+  display: flex;
   align-items: center;
 }
 .nav-header {
@@ -66,10 +66,10 @@ img {
 }
 .address ul {
   display: flex;
-  gap:40px;
+  gap: 40px;
 }
 .address {
-  margin-left:auto;
+  margin-left: auto;
   margin-top: 24px;
 }
 .address ul li a {
@@ -80,13 +80,13 @@ img {
   letter-spacing: 0.02em;
   font-style: normal;
 }
-.listmenu li a:hover{
-  color: var(--OCEAN)
+.listmenu li a:hover {
+  color: var(--OCEAN);
 }
-.address li a:hover{
-  color: var(--OCEAN)
+.address li a:hover {
+  color: var(--OCEAN);
 }
-.hero-bigbox{
+.hero-bigbox {
   background-color: var(--NAVY-BLUE);
   padding: 188px 0;
   text-align: center;
@@ -120,7 +120,7 @@ img {
   color: var(--WHİTE);
   margin-left: 477px;
 }
-.button:hover{
+.button:hover {
   background-color: var(--OCEAN);
 }
 .hero-text {
@@ -128,9 +128,9 @@ img {
 }
 .text-area {
   display: flex;
-  gap:24px; 
+  gap: 24px;
 }
-h3{
+h3 {
   color: var(--NAVY-BLUE);
   font-weight: 500;
   font-size: 20px;
@@ -138,7 +138,10 @@ h3{
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-.text-area li p{
+.feature {
+
+}
+.text-area li p {
   color: var(--SLATE);
   font-weight: 400;
   font-size: 16px;
@@ -146,5 +149,8 @@ h3{
   letter-spacing: 0.02em;
 }
 .text-textbox {
-  width: calc((100%-72px)/4);
+  width: calc((100%-72px) / 4);
+}
+.visually-hidden {
+  color: var(--WHİTE)
 }
